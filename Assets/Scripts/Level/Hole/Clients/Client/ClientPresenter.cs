@@ -20,7 +20,7 @@ namespace Cooking.Level.Hole.Clients
             view.SetPosition(position);
             view.GoToOrderPlaceFromEntryPlace(model.OrderPlace.GetPosition());
 
-            OrderList.SetActivityState(false);
+            OrderList.Deactivate();
         }
 
         private void SubscribeToEvents()

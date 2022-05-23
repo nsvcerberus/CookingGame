@@ -25,6 +25,8 @@ namespace Cooking
             model.ActivityStateUpdated += view.SetActive;
         }
 
-        public void SetActivityState(bool value) => model.SetActivityState(value);
+
+        public void Activate() => model.SetActivityState(true);
+        public void Deactivate() => model.SetActivityState(false);
     }
 }

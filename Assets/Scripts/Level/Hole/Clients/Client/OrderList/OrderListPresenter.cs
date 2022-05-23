@@ -10,7 +10,7 @@ namespace Cooking.Level.Hole.Clients
 
         public void Start()
         {
-            SetActivityState(true);
+            Activate();
         }
     }
 }

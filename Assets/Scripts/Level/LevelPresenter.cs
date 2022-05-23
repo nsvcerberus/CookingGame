@@ -20,14 +20,14 @@ namespace Cooking.Level
             UserInterface = new UserInterfacePresenter(view.UserInterface);
             Gameplay = new GameplayManager();
 
+            Gameplay.Timer.SetTimerCoroutine(view.TimerCoroutines);
+
             SubscribeToEvents();
             Start();
         }
 
         private void SubscribeToEvents()
-        {
-            view.Disable += Gameplay.Timer.Stop;
-            
+        {            
             Gameplay.Clients.ClientsAmountUpdated += UserInterface.Statistics.Clients.SetClientsAmount;
             Gameplay.Clients.WaitingClientsAmountUpdated += UserInterface.Statistics.Clients.SetWaitingClientsAmount;
             Gameplay.Timer.Updated += UserInterface.Statistics.Timer.SetSeconds;

@@ -15,8 +15,8 @@ namespace Cooking.Level.UserInterface
             GameOver = new WindowPresenter(view.GameOver);
             Victory = new WindowPresenter(view.Victory);
 
-            GameOver.SetActivityState(false);
-            Victory.SetActivityState(false);
+            GameOver.Deactivate();
+            Victory.Deactivate();
         }
     }
 }

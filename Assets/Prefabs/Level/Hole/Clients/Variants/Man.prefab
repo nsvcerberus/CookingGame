@@ -10,22 +10,22 @@ PrefabInstance:
     - target: {fileID: 1432250539085278024, guid: 2760f9e5e85006b4a84a11b57696d6ad,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.56981134
+      value: 0.35283017
       objectReference: {fileID: 0}
     - target: {fileID: 1432250539085278024, guid: 2760f9e5e85006b4a84a11b57696d6ad,
         type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0.71050984
       objectReference: {fileID: 0}
     - target: {fileID: 1432250539085278024, guid: 2760f9e5e85006b4a84a11b57696d6ad,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9825724
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4892906744984880798, guid: 2760f9e5e85006b4a84a11b57696d6ad,
         type: 3}
       propertyPath: m_Name
-      value: ClientEuropean
+      value: Male
       objectReference: {fileID: 0}
     - target: {fileID: 4892906744984880799, guid: 2760f9e5e85006b4a84a11b57696d6ad,
         type: 3}

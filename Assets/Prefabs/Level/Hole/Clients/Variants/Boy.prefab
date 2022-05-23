@@ -10,22 +10,22 @@ PrefabInstance:
     - target: {fileID: 1432250539085278024, guid: 2760f9e5e85006b4a84a11b57696d6ad,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.124065444
+      value: 0.4188679
       objectReference: {fileID: 0}
     - target: {fileID: 1432250539085278024, guid: 2760f9e5e85006b4a84a11b57696d6ad,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.8018868
+      value: 0.92396677
       objectReference: {fileID: 0}
     - target: {fileID: 1432250539085278024, guid: 2760f9e5e85006b4a84a11b57696d6ad,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.23810215
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4892906744984880798, guid: 2760f9e5e85006b4a84a11b57696d6ad,
         type: 3}
       propertyPath: m_Name
-      value: ClientAlien
+      value: Boy
       objectReference: {fileID: 0}
     - target: {fileID: 4892906744984880799, guid: 2760f9e5e85006b4a84a11b57696d6ad,
         type: 3}

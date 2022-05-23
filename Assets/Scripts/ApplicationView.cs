@@ -8,10 +8,11 @@ namespace Cooking
     public class ApplicationView : View
     {
         [SerializeField] private LevelView level;
+        private ApplicationPresenter presenter;
 
         private void Awake()
         {
-            new ApplicationPresenter(this);
+            presenter = new ApplicationPresenter(this);
         }
 
         public LevelView Level => level;

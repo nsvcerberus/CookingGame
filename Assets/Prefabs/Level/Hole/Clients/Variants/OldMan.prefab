@@ -10,22 +10,22 @@ PrefabInstance:
     - target: {fileID: 1432250539085278024, guid: 2760f9e5e85006b4a84a11b57696d6ad,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.08843004
+      value: 0.12549019
       objectReference: {fileID: 0}
     - target: {fileID: 1432250539085278024, guid: 2760f9e5e85006b4a84a11b57696d6ad,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.12572004
+      value: 0.40580493
       objectReference: {fileID: 0}
     - target: {fileID: 1432250539085278024, guid: 2760f9e5e85006b4a84a11b57696d6ad,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.2264151
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4892906744984880798, guid: 2760f9e5e85006b4a84a11b57696d6ad,
         type: 3}
       propertyPath: m_Name
-      value: ClientAfrican
+      value: OldMan
       objectReference: {fileID: 0}
     - target: {fileID: 4892906744984880799, guid: 2760f9e5e85006b4a84a11b57696d6ad,
         type: 3}

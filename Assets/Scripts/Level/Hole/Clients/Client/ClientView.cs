@@ -12,10 +12,6 @@ namespace Cooking.Level.Hole.Clients
         [SerializeField] private OrderListView orderList;
 
 
-        public void SetPosition(Vector3 position) => transform.position = position;
-        public void SetAsFirstSibling() => transform.SetAsFirstSibling();
-
-
         public void GoToOrderPlaceFromEntryPlace(Vector3 position)
         {
             Sequence sequence = DOTween.Sequence();
@@ -26,11 +22,14 @@ namespace Cooking.Level.Hole.Clients
 
         public void GoFromOrderPlaceToExitPlace(Vector3 position)
         {
-            
+
         }
 
 
         private void OnPlaceAnOrder() => PlaceAnOrder?.Invoke();
+
+        public void SetPosition(Vector3 position) => transform.position = position;
+        public void SetAsFirstSibling() => transform.SetAsFirstSibling();
 
         public OrderListView OrderList => orderList;
     }

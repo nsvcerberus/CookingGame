@@ -12,6 +12,7 @@ namespace Cooking.Level.Gameplay
         public ClientsManager Clients { get; private set; }
         public TimerManager Timer { get; private set; }
 
+
         public GameplayManager()
         {
             Clients = new ClientsManager();
@@ -24,6 +25,7 @@ namespace Cooking.Level.Gameplay
         {
             Timer.Ended += Stop;
         }
+
 
         public void Start()
         {
