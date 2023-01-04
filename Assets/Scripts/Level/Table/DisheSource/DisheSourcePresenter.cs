@@ -4,11 +4,11 @@ using UnityEngine;
 
 namespace Cooking.Level.Table
 {
-    public class DisheSourcePresenter : Presenter<DisheSourceView, Model>
+    public class DisheSourcePresenter //: Controller<DisheSourceView, Model>
     {
         public ButtonPresenter Button { get; private set; }
 
-        public DisheSourcePresenter(DisheSourceView view) : base(view)
+        public DisheSourcePresenter(DisheSourceView view) //: base(view)
         {
             Button = new ButtonPresenter(view.Button);
 

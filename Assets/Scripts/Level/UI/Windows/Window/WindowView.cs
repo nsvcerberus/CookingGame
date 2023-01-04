@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Cooking.Level.Table
+namespace Cooking.Level.UI
 {
-    public class DisheSourceView  : MonoBehaviour//: View
+    public class WindowView : MonoBehaviour
     {
         [SerializeField] private ButtonView button;
 

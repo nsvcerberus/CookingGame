@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Cooking
 {
-    public class ButtonView : View
+    public class ButtonView //: View
     {
         public event Action Click;
 

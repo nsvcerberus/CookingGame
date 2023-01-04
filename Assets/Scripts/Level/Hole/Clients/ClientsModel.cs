@@ -1,27 +1,25 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Cooking.Level.Hole.Clients;
 
 namespace Cooking.Level.Hole
 {
     public class ClientsModel : Model
     {
-        public Dictionary<int, ClientView> ClientsPrefabs { get; private set; }
+        public Dictionary<int, Client> ClientsPrefabs { get; private set; }
         public List<int> ClientsIdOnScene { get; private set; }
 
 
         public ClientsModel()
         {
-            ClientsPrefabs = new Dictionary<int, ClientView>();
+            ClientsPrefabs = new Dictionary<int, Client>();
             ClientsIdOnScene = new List<int>();
         }
 
-        public void AddClientPrefab(ClientView prefab, int id) => ClientsPrefabs.Add(id, prefab);
+        public void AddClientPrefab(Client prefab, int id) => ClientsPrefabs.Add(id, prefab);
         public void AddClientIdOnScene(int id) => ClientsIdOnScene.Add(id);
 
 
-        public ClientView GetRandomeClientPrefab()
+        public Client GetRandomeClientPrefab()
         {
             var keys = new List<int>(ClientsPrefabs.Keys);
             var keysForRandom = new List<int>();
