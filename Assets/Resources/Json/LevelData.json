@@ -1,0 +1,35 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Cooking.Editor.LevelsData.LevelData, Assembly-CSharp-Editor]], mscorlib",
+  "$values": [
+    {
+      "$type": "Cooking.Editor.LevelsData.LevelData, Assembly-CSharp-Editor",
+      "number": 1,
+      "clients": {
+        "$type": "System.Collections.Generic.List`1[[Cooking.Editor.LevelsData.ClientData, Assembly-CSharp-Editor]], mscorlib",
+        "$values": [
+          {
+            "$type": "Cooking.Editor.LevelsData.ClientData, Assembly-CSharp-Editor",
+            "name": "boy1",
+            "sweets": {
+              "$type": "System.Collections.Generic.List`1[[Cooking.Editor.LevelsData.Sweetness, Assembly-CSharp-Editor]], mscorlib",
+              "$values": [
+                {
+                  "$type": "Cooking.Editor.LevelsData.Sweetness, Assembly-CSharp-Editor",
+                  "name": "Tort2"
+                },
+                {
+                  "$type": "Cooking.Editor.LevelsData.Sweetness, Assembly-CSharp-Editor",
+                  "name": "Tort1"
+                },
+                {
+                  "$type": "Cooking.Editor.LevelsData.Sweetness, Assembly-CSharp-Editor",
+                  "name": "Tort4"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
